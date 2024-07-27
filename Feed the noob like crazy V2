@@ -1,0 +1,33 @@
+local args = {
+    [1] = "CaptainSkeledeath",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").EquipBuddy:FireServer(unpack(args))
+
+local args = {
+    [1] = "CaptainSkeledeath",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").EquipBuddy:FireServer(unpack(args))
+
+local args = {
+    [1] = "CaptainSkeledeath",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").EquipBuddy:FireServer(unpack(args))
+
+local args = {
+    [1] = "CaptainSkeledeath",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage").EquipBuddy:FireServer(unpack(args))
+
+while true do wait(0.1)
+game:GetService("ReplicatedStorage").FoodRemoteEvent:FireServer("GoldenBurger", "RightHand")
+
+game:GetService("ReplicatedStorage").FoodRemoteEvent:FireServer("GoldenBurger", "LeftHand")
+end
